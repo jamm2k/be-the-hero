@@ -14,6 +14,7 @@ export default function Detail(){
     const incident = route.params.incident;
     const message = `Olá ${incident.name}, estou entrando em contato para ajudar com o caso ${incident.title}, com o valor de ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}`;
 
+
     function navigateBack() {
         navigation.goBack()
     };
