@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 export default StyleSheet.create ({
     container: {
         flex: 1,
-        paddingHorizontal: 24,
+        paddingHorizontal: 20,
         paddingTop: Constants.statusBarHeight + 20,
     },
 
@@ -20,6 +20,10 @@ export default StyleSheet.create ({
         backgroundColor: '#FFF',
         marginTop: 48,
         marginBottom: 16,
+    },
+
+    incidentList: {
+        marginTop: 0,
     },
 
     incidentProperty: {
